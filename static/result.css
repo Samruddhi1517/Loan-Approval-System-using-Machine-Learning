@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.result-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Card */
+.result-card {
+    background: white;
+    padding: 50px;
+    border-radius: 25px;
+    text-align: center;
+    width: 420px;
+    max-width: 90%;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    animation: popUp 0.6s ease;
+    position: relative;
+}
+
+/* Approved Style */
+.approved {
+    background: linear-gradient(145deg, #e6fffa, #ffffff);
+    border: 3px solid #00c896;
+}
+
+/* Rejected Style */
+.rejected {
+    background: linear-gradient(145deg, #fff5f5, #ffffff);
+    border: 3px solid #ff4d4d;
+}
+
+/* Animated Circle */
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    animation: scaleIn 0.5s ease-in-out;
+}
+
+/* Approved Circle */
+.approved .circle {
+    border: 5px solid #00c896;
+}
+
+/* Rejected Circle */
+.rejected .circle {
+    border: 5px solid #ff4d4d;
+}
+
+/* Checkmark */
+.checkmark {
+    position: absolute;
+    width: 25px;
+    height: 50px;
+    border-right: 6px solid #00c896;
+    border-bottom: 6px solid #00c896;
+    transform: rotate(45deg);
+    left: 35px;
+    top: 20px;
+    animation: drawCheck 0.6s ease forwards;
+}
+
+/* Cross */
+.cross::before,
+.cross::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 6px;
+    background: #ff4d4d;
+    top: 45px;
+    left: 20px;
+}
+
+.cross::before {
+    transform: rotate(45deg);
+}
+
+.cross::after {
+    transform: rotate(-45deg);
+}
+
+/* Heading */
+.result-card h1 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+/* Paragraph */
+.result-card p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Modern Button */
+.btn-back {
+    text-decoration: none;
+    background: linear-gradient(45deg, #00c896, #00e6a8);
+    color: white;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: 0.4s;
+    display: inline-block;
+    box-shadow: 0 8px 20px rgba(0,200,150,0.3);
+}
+
+.btn-back:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0,200,150,0.5);
+}
+
+/* Animations */
+@keyframes popUp {
+    from { opacity: 0; transform: scale(0.8); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes scaleIn {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+@keyframes drawCheck {
+    from { height: 0; }
+    to { height: 50px; }
+}

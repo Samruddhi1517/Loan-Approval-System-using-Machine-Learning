@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+</head>
+<body>
+
+<div class="result-container">
+    
+    <div class="result-card {{ result|lower }}">
+
+        {% if result == "Approved" %}
+            <div class="icon approved-icon">
+                <span class="circle">
+                    <span class="checkmark"></span>
+                </span>
+            </div>
+            <h1>Loan Approved 🎉</h1>
+            <p>Your loan application has been successfully approved.</p>
+        {% else %}
+            <div class="icon rejected-icon">
+                <span class="circle">
+                    <span class="cross"></span>
+                </span>
+            </div>
+            <h1>Loan Rejected</h1>
+            <p>We're sorry. Your loan application was not approved.</p>
+        {% endif %}
+
+        <a href="/" class="btn-back">Apply Again</a>
+
+    </div>
+
+</div>
+
+</body>
+</html>
