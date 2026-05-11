@@ -46,5 +46,5 @@ def predict():
 
     return render_template("result.html", result=result)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if name == "main":
+    app.run(host="0.0.0.0", port=5000)
