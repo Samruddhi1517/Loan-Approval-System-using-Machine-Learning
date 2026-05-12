@@ -88,8 +88,8 @@ http://127.0.0.1:5000/
 
 ## 📤Output
 
-* Loan Approved
-* Loan Rejected
+* ✔Loan Approved
+* ❌Loan Rejected
 
 ---
 
