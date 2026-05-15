@@ -52,7 +52,7 @@ The system predicts whether a loan application will be **Approved** or **Rejecte
 
 ### 1. Clone Repository
 
-git clone https://github.com/your-username/Loan-Approval-System-using-Machine-Learning.git
+git clone https://github.com/Samruddhi1517/Loan-Approval-System-using-Machine-Learning.git
 
 ### 2. Open Project Folder
 
