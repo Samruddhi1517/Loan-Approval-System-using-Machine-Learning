@@ -95,19 +95,19 @@ http://127.0.0.1:5000/
 
 ## 📸 Screenshots
 
-* Input
+* ### Input
   
   <img width="1076" height="517" alt="image" src="https://github.com/user-attachments/assets/aa5071b1-1873-4e9d-9a11-93289c0a6955" />
 
-* Output
+* ### Output
   
   <img width="1074" height="509" alt="image" src="https://github.com/user-attachments/assets/cefd16c4-a11f-4c7e-bf74-705401bbf1ce" />
 
-* Input
+* ### Input
   
   <img width="1087" height="523" alt="image" src="https://github.com/user-attachments/assets/d4f97ca8-844d-496c-b745-e1db6ed6e2ae" />
 
-* Output
+* ### Output
   
   <img width="1087" height="515" alt="image" src="https://github.com/user-attachments/assets/162105f8-b7c1-45fd-80a2-eba6264e4946" />
 
