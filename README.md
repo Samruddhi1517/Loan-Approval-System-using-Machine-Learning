@@ -31,6 +31,24 @@ The system predicts whether a loan application will be **Approved** or **Rejecte
 * Jupyter Notebook
 
 ---
+## 📈 Evaluation Metrics
+### Classification Report
+<img width="750" height="321" alt="image" src="https://github.com/user-attachments/assets/db8c4862-086c-4b65-9318-bbce7cdb42eb" />
+
+
+### Confusion Matrix
+<img width="460" height="417" alt="1" src="https://github.com/user-attachments/assets/187f6901-e614-465b-b959-da8a718b6f33" />
+
+
+### Accuracy Comparison
+<img width="619" height="559" alt="image" src="https://github.com/user-attachments/assets/c67269b8-f50e-4d77-8c34-834c27c6e151" />
+
+
+### Feature Importance Graph
+<img width="971" height="494" alt="image" src="https://github.com/user-attachments/assets/54a55adf-7081-4f53-97f6-cdb4e942053a" />
+
+
+---
 
 ## 📂Project Structure
 
