@@ -52,6 +52,7 @@ The system predicts whether a loan application will be **Approved** or **Rejecte
 
 ## 📂Project Structure
 
+```txt
  Loan_Approval_Project/
  │── app.py
  │── model_loan.pkl
@@ -63,6 +64,7 @@ The system predicts whether a loan application will be **Approved** or **Rejecte
  │── static/
  │ ├── style.css
  │ └── result.css
+```
 
 ---
 
